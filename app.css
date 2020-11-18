@@ -6,3 +6,76 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+body{
+  background-color: white;
+  font-family: "Arial";
+}
+
+h1{
+  text-align: center;
+}
+.quizLayout{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20%;
+  border: 1px solid grey;
+  background-color:white;
+}
+.normalLayout{
+  display: flex;
+  justify-content: center;
+  margin: 0 5%;
+  border: 5px solid hotpink;
+  padding: 2% 2% 2% 2%;
+  background-color: white;
+}
+
+.questionInfo {
+  padding: 2% 5% 2% 5%;
+}
+
+
+.animeWeeb {
+  color:pink;
+}
+
+#question {
+  padding: 5% 0% 7% 10%;
+}
+
+.questionImage{
+  padding: 20% 0;
+  width: 100%;
+  height: auto;
+}
+
+#quizQuestion {
+  text-align: center;
+}
+@media all and (min-width: 600px) {
+
+
+  .quizLayout{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    border: 5px solid hotpink;
+    background-color:white;
+  }
+  .normalLayout{
+    display: flex;
+    justify-content: center;
+    margin: 0 20%;
+    border: 5px solid hotpink;
+    padding: 2% 2% 2% 2%;
+    background-color: white;
+  }
+
+  body {
+    font-size: 30px;
+  }
+  img {
+    padding: 0 2% 0 0;
+  }
+
+}
