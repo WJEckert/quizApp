@@ -144,7 +144,7 @@ function generateEnd() {
   else {
     html =
           `<div class = 'normalLayout'>
-          <img class = "questionImage" src = "images/NotAWeeb.png" alt = "You are not a weeb">
+         
                 <form id = "end">
                   <h2>You reached the end</h2>
                   <p>You got ${store.score} questions correct out of ${store.questions.length}! <br>
@@ -152,7 +152,9 @@ function generateEnd() {
                 </p>
                   <div class = 'animeWeeb'>
                     You are not a weeb! Git good.
+                    <img class = "questionImage" src = "images/NotAWeeb.png" alt = "You are not a weeb">
                   </div>
+                  
                 </p>
                   <button type="submit"> Retry </button>
                 </form>
